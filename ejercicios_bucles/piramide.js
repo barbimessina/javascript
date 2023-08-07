@@ -5,10 +5,10 @@ let niveles = 10;
 
 for (let altura =1; altura <= niveles; altura++){ //altura
     for (let espacio = 1; espacio<= niveles- altura; espacio++) {  //ancho espacio
-         document.write("&nbsp");
+         console.log("&nbsp");
     }
     for(let ast = 1; ast <= altura; ast++){ //Asteriscos
-        document.write("*")
+        console.log("*")
     }
-document.write("<br/>")
+console.log("<br/>")
 }
