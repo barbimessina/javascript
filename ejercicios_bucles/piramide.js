@@ -11,4 +11,6 @@ for (let altura =1; altura <= niveles; altura++){ //altura
         console.log("*")
     }
 console.log("<br/>")
+
+
 }
